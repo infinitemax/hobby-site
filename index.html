@@ -76,7 +76,7 @@
     <!-- main section, with grid -->
     <main>
         <!-- grid wrapper -->
-        <div class="grid md:mx-6 lg:mx-22 mt-6 gap-4 grid-cols-1 md:grid-cols-4">
+        <div class="grid md:mx-6 lg:mx-32 xl:mx-64 2xl:mx-96 mt-6 gap-4 grid-cols-1 md:grid-cols-4">
             <!-- columns -->
             <!-- mini sidebar -->
             <div class="bg-red-300 grid grid-cols-4 md:grid-cols-1 gap-4 justify-center text-center">
@@ -118,35 +118,67 @@
                 </div>
             </div>
             <!-- intro section -->
-            <div class="grid grid-cols-2 bg-blue-300 md:col-span-3 "><!-- turn into another grid -->
-                <div class="mx-auto">
-                    <h2 class="text-2xl md:text-4xl text-center text-blue-50 font-light">Climbing is cool...</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et est rerum, repudiandae delectus sit
-                        similique repellat dolore deleniti quia officiis consectetur officia dolorum consequatur
-                        repellendus aliquid doloribus distinctio inventore voluptate!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptates non laborum qui
-                        obcaecati labore cum quidem beatae unde, ipsam magni nisi et cumque quas culpa quibusdam
-                        exercitationem ab necessitatibus.</p>
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl col-span-3">
+                <div class="md:flex">
+                  <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://live.staticflickr.com/119/288880576_818b6ecfef_b.jpg" alt="Modern building architecture">
+                  </div>
+                  <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
+                    <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+                  </div>
                 </div>
-                <div>
-                    <img src="https://live.staticflickr.com/119/288880576_818b6ecfef_b.jpg" alt="a climber reaches the top of an overhanging climb" class="w-[350px] md:w-[200px]">
-                    </div>
-            </div>
+              </div>
+    
+
+
+            <!-- <div class="grid grid-cols-2 gap-4 bg-blue-300 md:col-span-3">
+                
+                <div class="mx-auto">
+                    <h2 class="text-2xl md:text-4xl text-center text-blue-50 font-light pt-6 pb-3">Climbing is cool...
+                    </h2>
+                    <p class="px-4 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et est rerum,
+                        repudiandae delectus sit similique repellat dolore deleniti quia officiis consectetur officia
+                        dolorum consequatur repellendus aliquid doloribus distinctio inventore voluptate!</p>
+                </div>
+                <div class="">
+                    <img src="https://live.staticflickr.com/119/288880576_818b6ecfef_b.jpg"
+                        alt="a climber reaches the top of an overhanging climb" class="w-[350px] md:w-[200px]">
+                </div>
+
+            
+            </div> -->
             <div class="bg-yellow-300 md:col-span-3 h-96">
                 <h2>Types of climbing in the Peak</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nam autem neque quaerat itaque hic
-                    vel quasi quos voluptatibus dolore, accusamus, sunt exercitationem praesentium at asperiores!
-                    Voluptatibus distinctio perferendis nostrum.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil rem error ut est aspernatur
-                    voluptatem, quam itaque vel accusantium doloremque corporis labore quia laborum aut. Non debitis
-                    aspernatur error est.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nam autem neque quaerat itaque hic vel quasi quos voluptatibus dolore, accusamus, sunt exercitationem praesentium at asperiores! Voluptatibus distinctio perferendis nostrum.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil rem error ut est aspernatur voluptatem, quam itaque vel accusantium doloremque corporis labore quia laborum aut. Non debitis aspernatur error est.</p>
             </div>
 
             <div class="bg-cyan-300 h-96">
 
             </div>
         </div>
+
+        <!-- messing around with a responsive little card thing from https://tailwindcss.com/docs/responsive-design-->
+
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://live.staticflickr.com/119/288880576_818b6ecfef_b.jpg" alt="Modern building architecture">
+              </div>
+              <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
+                <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+              </div>
+            </div>
+          </div>
+
     </main>
+
+
+
 
 
     <!-- FOOTER -->
