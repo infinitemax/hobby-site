@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -53,7 +56,7 @@
             <div class="flex justify-center items-center md:items-end h-full">
                 <div class="w-[80%] sm:max-w-lg md:mb-10 py-6 md:py-8 px-16 bg-blue-950 bg-opacity-80 sm:rounded">
                     <h1 class="text-4xl md:text-7xl text-center text-blue-50 font-light">About me</h1>
-                    <h2 class="md:text-2xl text-center text-blue-50 font-extralight mt-4 ">Climber, developer?</h2>
+                    <h2 class="md:text-2xl text-center text-blue-50 font-extralight mt-4 ">Climber (and developer?)</h2>
                 </div>
             </div>
         </div>
@@ -65,12 +68,17 @@
     <main>
 
         <!-- INTRO -->
-        <div class="grid grid-cols-1 md:grid-cols-12 mx-auto mt-10 max-w-2xl">
-            <div class="bg-orange-300 h-52 md:col-span-3">
-                <img src="" alt="">
+        <div class="grid grid-cols-1 md:grid-cols-4 mx-auto mt-10 max-w-2xl mb-14">
+            <div class="hidden md:inline md:col-span-1 static">
+                <img class="rounded-full relative left-12 top-9" src="images/WhatsApp Image 2023-08-31 at 13.40.02.jpeg" alt="a picture of me">
             </div>
-            <div class="bg-blue-300 h-52 md:col-span-9">
-
+            <div class="width-[100%] bg-blue-300 md:col-span-3 md:pl-20 md:pr-8 md:rounded-3xl h-56 md:h-64">
+                <h2 class="stone-cards text-4xl mt-8 mb-4 text-blue-900">Hi, I'm Max</h2>
+                <p class="mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sed quidem ut minima. Quia dolorem veniam enim fugiat, reiciendis provident. Quaerat fugiat quibusdam dignissimos repudiandae aliquam. Fugit expedita et sequi!
+                </p>
+            </div>
+            <div class="md:col-span-3 md:hidden static">
+                <img class="rounded-full w-48 mx-auto my-auto relative bottom-9" src="images/WhatsApp Image 2023-08-31 at 13.40.02.jpeg" alt="a picture of me">
             </div>
         </div>
 
@@ -84,18 +92,18 @@
         See more components: https://web3components.dev -->
         <div class="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
             <div class="flex flex-col items-center">
-                <h2 class="font-bold text-5xl mt-5 tracking-tight">
-                    FAQ
+                <h2 class="font-bold text-5xl mt-5 tracking-tight text-blue-900">
+                    FAM
                 </h2>
                 <p class="text-neutral-500 text-xl mt-3">
-                    Frequenty asked questions
+                    Facts about me
                 </p>
             </div>
             <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
                 <div class="py-5">
                     <details class="group">
                         <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> What is a SAAS platform?</span>
+                            <span>Name</span>
                             <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
                                     stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -105,15 +113,14 @@
                             </span>
                         </summary>
                         <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            SAAS platform is a cloud-based software service that allows users to access
-                            and use a variety of tools and functionality.
+                            My name is long - Maxwell Fionn Brookman-Byrne. It can be annoying filling out forms...
                         </p>
                     </details>
                 </div>
                 <div class="py-5">
                     <details class="group">
                         <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How does billing work?</span>
+                            <span> Location</span>
                             <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
                                     stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -123,17 +130,14 @@
                             </span>
                         </summary>
                         <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            We offers a variety of billing options, including monthly and annual subscription plans,
-                            as well as pay-as-you-go pricing for certain services. Payment is typically made through a
-                            credit
-                            card or other secure online payment method.
+                            I currently live in Sheffield but grew up on the south coast, and have lived in Guildford, Brussels, London, and Lincoln.
                         </p>
                     </details>
                 </div>
                 <div class="py-5">
                     <details class="group">
                         <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> Can I get a refund for my subscription?</span>
+                            <span>Career so far</span>
                             <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
                                     stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -143,19 +147,14 @@
                             </span>
                         </summary>
                         <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            We offers a 30-day money-back guarantee for most of its subscription plans. If you are not
-                            satisfied with your subscription within the first 30 days, you can request a full refund.
-                            Refunds
-                            for subscriptions that have been active for longer than 30 days may be considered on a
-                            case-by-case
-                            basis.
+                            Until recently I was a senior lecturer in Law, teaching and researching in human rights and focusing on the use of armed drones in conflict. But I'm seeking a change so have taken a leap to retrain as a developer.
                         </p>
                     </details>
                 </div>
                 <div class="py-5">
                     <details class="group">
                         <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How do I cancel my subscription?</span>
+                            <span> What I like to do</span>
                             <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
                                     stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -165,109 +164,7 @@
                             </span>
                         </summary>
                         <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            To cancel your We subscription, you can log in to your account and navigate to the
-                            subscription management page. From there, you should be able to cancel your subscription and
-                            stop
-                            future billing.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> Can I try this platform for free?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            We offers a free trial of its platform for a limited time. During the trial period,
-                            you will have access to a limited set of features and functionality, but you will not be
-                            charged.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How do I access documentation?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            Documentation is available on the company's website and can be accessed by
-                            logging in to your account. The documentation provides detailed information on how to use
-                            the ,
-                            as well as code examples and other resources.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How do I contact support?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            If you need help with the platform or have any other questions, you can contact the
-                            company's support team by submitting a support request through the website or by emailing
-                            support@We.com.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> Do you offer any discounts or promotions?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            We may offer discounts or promotions from time to time. To stay up-to-date on the latest
-                            deals and special offers, you can sign up for the company's newsletter or follow it on
-                            social
-                            media.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How do we compare to other similar services?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            This platform is a highly reliable and feature-rich service that offers a wide range
-                            of tools and functionality. It is competitively priced and offers a variety of billing
-                            options
-                            to
-                            suit different needs and budgets.
+                            Clearly I'm into climbing, but I also enjoy surfing, cycle touring, and playing music. I can't live without a social life and really enjoy being around good people.
                         </p>
                     </details>
                 </div>
