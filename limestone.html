@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,18 +27,18 @@
      <div class="w-full md:block md:w-auto" id="navbar-default">
          <ul class="font-medium flex flex-row p-0 mt-0 space-x-8 md:mt-0 ">
              <li>
-                 <a href="./index.html" class="block p-0 text-blue-50 text-xl hover:text-yellow-200 font-extralight">Home</a>
+                 <a href="index.html" class="block p-0 text-blue-50 text-xl hover:text-yellow-200 font-extralight">Home</a>
              </li>
              <li>
-                 <a href="./gritstone.html"
-                     class="block p-0 text-blue-400 text-xl font-light" aria-current="page">Gritstone</a>
+                 <a href="gritstone.html"
+                     class="block p-0 text-blue-50 text-xl hover:text-yellow-200 font-extralight">Gritstone</a>
              </li>
              <li>
                  <a href="#"
-                     class="block p-0 text-blue-50 text-xl hover:text-yellow-200 font-extralight">Limestone</a>
+                     class="block p-0 text-blue-400 text-xl font-light" aria-current="page">Limestone</a>
              </li>
              <li>
-                 <a href="./about.html" class="block p-0 text-blue-50 text-xl hover:text-yellow-200 font-extralight">About
+                 <a href="about.html" class="block p-0 text-blue-50 text-xl hover:text-yellow-200 font-extralight">About
                      me</a>
              </li>
          </ul>
@@ -44,7 +47,54 @@
 </nav>
 
 
-    <h1>Limestone</h1>
+    
+    <!-- THE MAIN SECTION -->
+
+
+    <!-- HEADER -->
+    <header>
+        <div class="bg-no-repeat bg-cover h-48 md:h-[18rem]"
+            style="background-image: url('https://cldup.com/4vzu2urh1Y.jpg');"
+            title="A decorative image showing the Peak District">
+            <div class="flex justify-center items-center md:items-end h-full">
+                <div class="md:mb-10 py-6 md:py-8 px-16 bg-blue-950 bg-opacity-80 sm:rounded">
+                    <h1 class="text-4xl md:text-7xl text-center text-blue-50 font-light">Limestone</h1>
+                    <h2 class="md:text-2xl text-center text-blue-50 font-extralight mt-4 ">Lots of holds, no friction</h2>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--Main layout-->
+    <main>
+        <!-- This will be our grid wrapper -->
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:mx-32 md:gap-4 md:mt-8">
+            <!-- These will be the columns -->
+            <div class="bg-red-300 text-center">
+                <h5 class="stone-cards text-4xl mt-10 mb-4">Fact 1</h5>
+                <p class="mb-10 mx-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, molestias accusamus molestiae, obcaecati laborum nobis quod voluptatum enim quaerat amet debitis reiciendis aliquid delectus facilis. Velit voluptate repudiandae est ipsum?</p>
+                
+            </div>
+
+            <div class="bg-blue-300 text-center">
+                <h5 class="stone-cards text-4xl mt-10 mb-4">Fact 2</h5>
+                <p class="mb-10 mx-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, molestias accusamus molestiae, obcaecati laborum nobis quod voluptatum enim quaerat amet debitis reiciendis aliquid delectus facilis. Velit voluptate repudiandae est ipsum?</p>
+            </div>
+
+            <div class="bg-green-300 text-center">
+                <h5 class="stone-cards text-4xl mt-10 mb-4">Fact 3</h5>
+                <p class="mb-10 mx-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, molestias accusamus molestiae, obcaecati laborum nobis quod voluptatum enim quaerat amet debitis reiciendis aliquid delectus facilis. Velit voluptate repudiandae est ipsum?</p>
+            </div>
+
+            <div class="bg-orange-300 text-center">
+                <h5 class="stone-cards text-4xl mt-10 mb-4">Fact 4</h5>
+                <p class="mb-10 mx-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, molestias accusamus molestiae, obcaecati laborum nobis quod voluptatum enim quaerat amet debitis reiciendis aliquid delectus facilis. Velit voluptate repudiandae est ipsum?</p>
+            </div>
+        </div>
+
+    </main>
+
 
 
 
