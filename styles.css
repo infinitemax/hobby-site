@@ -1,9 +1,7 @@
 /* additional styles - use tailwind where possible */
 
-.test {
-    width: 300px;
-    height: 100px;
-    color: gray;
+body {
+    background-color: #F3F5FF;
 }
 
 
@@ -15,4 +13,8 @@
 .stone-cards {
     font-family: 'Caveat', cursive;
 font-family: 'Kalam', cursive;
+}
+
+.slide-label {
+    background-color: rgba(23,37,84, 0.7);
 }
