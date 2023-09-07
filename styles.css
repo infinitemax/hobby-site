@@ -1,9 +1,7 @@
 /* additional styles - use tailwind where possible */
 
-.test {
-    width: 300px;
-    height: 100px;
-    color: gray;
+body {
+    background-color: #F3F5FF;
 }
 
 
@@ -16,3 +14,4 @@
     font-family: 'Caveat', cursive;
 font-family: 'Kalam', cursive;
 }
+
