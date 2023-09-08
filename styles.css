@@ -14,9 +14,9 @@ font-family: 'Kalam', cursive;
 }
 
 .nav-down {
-    display: inline;
+    opacity: 100;
 }
 
 .atTop {
-    display: none;
+    opacity: 0;
 }
