@@ -113,90 +113,60 @@
             <img src="images/climbing.png" alt="an icon of a climber" class="w-[64px] md:w-[128px] mx-auto my-16">
         </div>
 
-        <!-- fade carousel -->
 
-        <div class="mt-12">
-            <div id="carouselExampleCrossfade" class="relative md:w-[768px] md:mx-auto" data-te-carousel-init
-                data-te-ride="carousel">
-                <!--Carousel indicators-->
-                <div class="absolute inset-x-0 bottom-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-                    data-te-carousel-indicators>
-                    <button type="button" data-te-target="#carouselExampleCrossfade" data-te-slide-to="0"
-                        data-te-carousel-active
-                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-te-target="#carouselExampleCrossfade" data-te-slide-to="1"
-                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-te-target="#carouselExampleCrossfade" data-te-slide-to="2"
-                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                        aria-label="Slide 3"></button>
+        <!-- New cards to replace carousel -->
+
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl md:col-span-3 mb-6">
+            <div class="md:flex">
+                <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-56 md:w-48"
+                        src="images/StanageEdge.jpeg"
+                        alt="A view of Stanage Edge">
                 </div>
-                <!--Carousel items-->
-                <div class="relative w-[full] overflow-hidden after:clear-both after:block after:content-['']">
-                    <!--First item-->
-                    <div class="relative float-left -mr-[100%] w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-te-carousel-fade data-te-carousel-item data-te-carousel-active>
-                        <img src="images/StanageEdge.jpeg" class="block w-full" alt="Stanage edge" />
-                        <div class="absolute inset-x-[15%] bottom-5 py-5 text-center slide-label text-blue-50">
-                            <h5 class="text-xl">Stanage Edge</h5>
-                            <p class="hidden sm:block">
-                                5km of climbing, with around 7000 routes and boulder problems
-                            </p>
-                        </div>
+                <div class="p-8">
+                    <div>
+                        <h2 class="uppercase tracking-wide text-2xl md:text-lg text-blue-900 font-semibold">Stanage</h2>
                     </div>
-                    <!--Second item-->
-                    <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-te-carousel-fade data-te-carousel-item>
-                        <img src="images/Curbar_Edge_7_1__1586502214smaller.jpg" class="block w-full"
-                            alt="Curbar edge" />
-                        <div class="absolute inset-x-[15%] bottom-5  py-5 text-center text-blue-50  slide-label">
-                            <h5 class="text-xl">Curbar</h5>
-                            <p class="hidden sm:block">
-                                Hard trad climbing with perfect views
-                            </p>
-                        </div>
-                    </div>
-                    <!--Third item-->
-                    <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-te-carousel-fade data-te-carousel-item>
-                        <img src="images/millstone-carousel.jpeg" class="block w-full" alt="Millstone edge" />
-                        <div class="absolute inset-x-[15%] bottom-5  py-5 text-center text-blue-50  slide-label">
-                            <h5 class="text-xl">Millstone Edge</h5>
-                            <p class="hidden sm:block">
-                                Extremely hard and steep climbing, not for the fainthearted!
-                            </p>
-                        </div>
-                    </div>
+                    <p class="mt-3 md:mt-2 text-slate-500">5km of climbing, with around 7000 routes and boulder problems</p>
                 </div>
-                <!--Carousel controls - prev item-->
-                <button
-                    class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-                    type="button" data-te-target="#carouselExampleCrossfade" data-te-slide="prev">
-                    <span class="inline-block h-8 w-8">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="h-6 w-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                        </svg>
-                    </span>
-                    <span
-                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
-                </button>
-                <!--Carousel controls - next item-->
-                <button
-                    class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-                    type="button" data-te-target="#carouselExampleCrossfade" data-te-slide="next">
-                    <span class="inline-block h-8 w-8">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="h-6 w-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                        </svg>
-                    </span>
-                    <span
-                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
-                </button>
             </div>
         </div>
+
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl md:col-span-3 mb-6">
+            <div class="md:flex">
+                <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-56 md:w-48"
+                        src="images/Curbar_Edge_7_1__1586502214smaller.jpg"
+                        alt="A view of curbar with people walking and climbing">
+                </div>
+                <div class="p-8">
+                    <div>
+                        <h2 class="uppercase tracking-wide text-2xl md:text-lg text-blue-900 font-semibold">Curbar</h2>
+                    </div>
+
+                    <p class="mt-3 md:mt-2 text-slate-500">Hard trad climbing with perfect views</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl md:col-span-3">
+            <div class="md:flex">
+                <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-56 md:w-48"
+                        src="images/millstone-carousel.jpeg"
+                        alt="A climber on Millstone edge">
+                </div>
+                <div class="p-8">
+                    <div>
+                        <h2 class="uppercase tracking-wide text-2xl md:text-lg text-blue-900 font-semibold">Millstone</h2>
+                    </div>
+                    <p class="mt-3 md:mt-2 text-slate-500">Extremely hard and steep climbing, not for the fainthearted!</p>
+                </div>
+            </div>
+        </div>
+
+
+
 
 
 
