@@ -3,7 +3,7 @@
     
 $(document).ready(function() {
 
-    var topOfOthDiv = ($("#sub-heading").offset().top)/1.9;
+    var topOfOthDiv = ($("#sub-heading").offset().top);
     $(window).scroll(function() {
         if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
             $("#nav-text").removeClass("atTop").addClass("nav-down"); //reached the desired point -- show div
