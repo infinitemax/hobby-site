@@ -1,6 +1,4 @@
 /* additional styles - use tailwind where possible */
-
-
 .cta {
     font-family: 'Caveat', cursive;
 
@@ -13,4 +11,12 @@ font-family: 'Kalam', cursive;
 
 .slide-label {
     background-color: rgba(23,37,84, 0.7);
+}
+
+.nav-down {
+    display: inline;
+}
+
+.atTop {
+    display: none;
 }
