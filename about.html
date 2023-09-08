@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -70,20 +70,25 @@
         <!-- INTRO -->
         <div class="grid grid-cols-1 md:grid-cols-4 mx-auto mt-0 md:mt-10 max-w-2xl mb-14">
             <div class="md:col-span-3 md:hidden static">
-                <img class="rounded-full w-48 mx-auto my-auto relative top-9" src="images/WhatsApp Image 2023-08-31 at 13.40.02.jpeg" alt="a picture of me">
+                <img class="rounded-full w-48 mx-auto my-auto relative top-9"
+                    src="images/WhatsApp Image 2023-08-31 at 13.40.02.jpeg" alt="a picture of me">
             </div>
             <div class="hidden md:inline md:col-span-1 static">
-                <img class="rounded-full relative left-12 top-11" src="images/WhatsApp Image 2023-08-31 at 13.40.02.jpeg" alt="a picture of me">
+                <img class="rounded-full relative left-12 top-11"
+                    src="images/WhatsApp Image 2023-08-31 at 13.40.02.jpeg" alt="a picture of me">
             </div>
             <div class="width-[100%] bg-blue-300 md:col-span-3 md:pl-20 md:pr-8 md:rounded-3xl h-56 md:h-64">
-                <h2 class="stone-cards text-4xl mt-8 mb-4 mx-6 md:mx-0text-blue-900">Hi, I'm Max</h2>
-                <p class="mb-8 mx-6 md:mx-0">Thanks for visiting this website, about one of my favourite hobbies: climbing! I picked it up about 7 years ago and, like many who try it, was addicted straight away. Not only is it a great way to get fit, it also comes with a community of really nice people!
+                <h2 class="stone-cards text-4xl md:text-5xl mt-8 mb-4 mx-6 md:mx-0text-blue-900">Hi, I'm Max</h2>
+                <p class="mb-8 mx-6 md:mx-0">Thanks for visiting this website, about one of my favourite hobbies:
+                    climbing! I picked it up about 7 years ago and, like many who try it, was addicted straight away.
+                    Not only is it a great way to get fit, it also comes with a community of really nice people!
                 </p>
             </div>
         </div>
 
 
-        <img src="images/overhang-icon.png" alt="an icon of a climber" class="w-[80px] sm:w-[128px] mx-auto md:my-10 mb-10">
+        <img src="images/overhang-icon.png" alt="an icon of a climber"
+            class="w-[80px] sm:w-[128px] mx-auto md:my-10 mb-10">
 
 
         <!--
@@ -132,7 +137,8 @@
                             </span>
                         </summary>
                         <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            I currently live in Sheffield but grew up on the south coast, and have lived in Guildford, Brussels, London, and Lincoln.
+                            I currently live in Sheffield but grew up on the south coast, and have lived in Guildford,
+                            Brussels, London, and Lincoln.
                         </p>
                     </details>
                 </div>
@@ -149,7 +155,9 @@
                             </span>
                         </summary>
                         <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            Until recently I was a senior lecturer in Law, teaching and researching in human rights and focusing on the use of armed drones in conflict. But I'm seeking a change so have taken a leap to retrain as a developer.
+                            Until recently I was a senior lecturer in Law, teaching and researching in human rights and
+                            focusing on the use of armed drones in conflict. But I'm seeking a change so have taken a
+                            leap to retrain as a developer.
                         </p>
                     </details>
                 </div>
@@ -166,7 +174,8 @@
                             </span>
                         </summary>
                         <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            Clearly I'm into climbing, but I also enjoy surfing, cycle touring, and playing music. I can't live without a social life and really enjoy being around good people.
+                            Clearly I'm into climbing, but I also enjoy surfing, cycle touring, and playing music. I
+                            can't live without a social life and really enjoy being around good people.
                         </p>
                     </details>
                 </div>
@@ -177,9 +186,58 @@
 
     </main>
 
+    <!-- contact form -->
+
+    <!-- component -->
+    <div class="grid grid-cols-1 mx-auto w-[90%] sm:w-[500px] mt-16 md:mt-28">
+        <h3 class="stone-cards text-4xl md:text-6xl mb-8">Get in touch!</h3>
+        <form action="">
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">first name</label>
+                    <input
+                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                        id="grid-first-name" type="text" placeholder="First name">
+                </div>
+
+                <div>
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">Last name</label>
+                    <input
+                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                        id="grid-last-name" type="text" placeholder="Last name">
+                </div>
+            </div>
+            <div>
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="grid-password">
+                E-mail
+                </label>
+                <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    id="email" type="email" placeholder="email@example.com">
+            </div>
+            <div>
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="grid-password">
+                Message
+            </label>
+            <textarea
+                class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                id="message"></textarea>
+            </div>
+            <div>
+                <button
+                        class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                        type="submit">
+                        Send
+                    </button>
+            </div>
+        </form>
+    </div>
 
 
 
+    
 
 
     <!-- FOOTER -->
